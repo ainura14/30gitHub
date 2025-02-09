@@ -1,8 +1,25 @@
 package Task1.OneMethod;
 
-public class Random {
+import java.util.Random;
+
+public class RandomTask {
     public static void main(String[] args) {
-        java.util.Random random = new java.util.Random();
-        random.nextInt()
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        Random random = new Random();
+        a = random.nextInt(10);
+        b = random.nextInt(10);
+        c= random.nextInt(10);
+        System.out.println(a + " " + b + " " + c);
+        System.out.println(a + b + c);
+        if(a > b){
+            System.out.println(a);
+        }else if (c > b) {
+            System.out.println(c);
+        }else{
+            System.out.println(b);
+        }
+
     }
 }
