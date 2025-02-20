@@ -1,4 +1,4 @@
-package Task1;
+package Task1.OneMethod;
 
 public class Main {
     public static void main(String[] args) {
